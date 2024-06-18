@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.header .logo {
+    float: left;
+    font-size: 1.5rem;
+    
+}
+
+.header .nav {
+    float: right;
+}
+
+.header .nav ul {
+    list-style: none;
+}
+
+.header .nav ul li {
+    display: inline;
+    margin-left: 1rem;
+}
+
+.header .nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    scale: 2px initial;
+    transition: 0.1s;
+}
+
+.hero {
+    background: url('images/back.jpg')  no-repeat center center/cover;
+    color: #ffffff;
+    height: 60vh;
+    text-align: center;
+    padding-top: 15%;
+}
+
+.hero h2 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.hero .btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #e8491d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.shop-section, .about-section, .contact-section {
+    padding: 2rem 0;
+}
+
+.shop-section .product-grid {
+    display: flex;
+    gap: 2rem;
+}
+
+.product-card {
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.product-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.product-card p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.product-card .btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #e8491d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.about-section p, .contact-section form {
+    font-size: 1.2rem;
+}
+
+.contact-section form input, .contact-section form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-section form button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.footer p {
+    margin: 0;
+}
